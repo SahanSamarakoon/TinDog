@@ -1,0 +1,147 @@
+body{
+    font-family: 'Montserrat';
+}
+
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+}
+
+h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 2rem;
+}
+
+p{
+    font-family: 'Montserrat-Black', sans-serif;
+    color: #8f8f8f;
+}
+
+/* Navbar */
+.navbar{
+    padding-bottom: 2.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+
+.navbar-item{
+    padding: 0 18px;
+}
+
+.navbar-link{
+    font-size: 1.2rem;
+}
+
+/* Title */
+
+#title{
+    background-color: #ff4c68;
+    color: #ffff;
+}
+
+.container-fluid{
+    padding: 2% 15% 4%;
+}
+
+#title-image{
+    width: 25%;
+    right: 20%;
+    transform:rotate(25deg);
+    position: absolute;
+}
+
+@media screen and (max-width: 900px) {
+    #title{
+        text-align: center;
+    }
+    #title-image{
+        width: 25%;
+        position:static
+    }
+}
+
+
+/* Download Buttons */
+.button-download{
+    margin: 5% 3% 5% 0%;
+}
+
+/* Feature Section */
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ffff;
+    position: relative;
+    z-index: 1;
+}
+
+.fas{
+    color:#ef8172;
+    margin: 5%;
+}
+
+.fas:hover{
+    color:#ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+/* Press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+/* Pricing */
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+/* CTA */
+#cta{
+    padding-top: 7%;
+    background-color: #ff4c68;
+    color: #ffff;
+    text-align: center;
+}
+
+/* Footer */
+#footer{
+    padding: 7% 15%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.footer-icn{
+    padding: 5px 5px;
+}
